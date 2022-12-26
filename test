@@ -1,1 +1,6 @@
-DO180
+alias.st=status
+alias.co=checkout
+alias.br=branch
+alias.g=log --graph --oneline --all
+alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.ab=!git add . | xargs git reset --hard
